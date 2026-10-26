@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local secrets and camera credentials
+.env
+.env.*
+!.env.example
+a9_camera.json
+
+# Logs and runtime files
+*.log
+*.pid
+.DS_Store
+
+# Local editor/agent state
+.pch/

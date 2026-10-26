@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsx server.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.0"
+  }
+}
