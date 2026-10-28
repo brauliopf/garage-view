@@ -3,9 +3,11 @@
   "type": "commonjs",
   "scripts": {
     "start": "tsx server.ts",
-    "test": "tsx --test test/*.test.ts"
+    "test": "tsx --test test/*.test.ts",
+    "format": "prettier --write \"*.ts\" \"test/**/*.ts\""
   },
   "devDependencies": {
+    "prettier": "^3.9.10",
     "tsx": "^4.23.0"
   }
 }

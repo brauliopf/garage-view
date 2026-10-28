@@ -1,0 +1,6 @@
+node_modules/
+.pch/
+.env
+.env.example
+a9_camera.json
+package-lock.json
